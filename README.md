@@ -26,7 +26,7 @@ Enter raw_manga_translator: cd raw_manga_translator
 Install dependencies: pip install -r requirements.txt
 Double-click on run_pipeline.bat or (in cmd) python run_all_pipeline.py
 
-#############################################################################################
+#######################################################################################
 
 Italiano: Manga Translator Pipeline
 
