@@ -1,0 +1,13 @@
+# Manga input/output
+input/
+output/
+
+# Archivi
+*.cbz
+*.zip
+
+# Cache / ML
+__pycache__/
+*.pt
+*.h5
+*.onnx
