@@ -39,7 +39,7 @@ Questa pipeline usa Python e moduli open-source per:
 
 Istruzioni:
 1. Entra in raw_manga_translator: `cd raw_manga_translator`
-2. Esegui `python -m venv tf_env`
+2. Esegui `python -m venv tf_env ;`
 	  `tf_env\Scripts\activate`
 3. Installa le dipendenze: `pip install -r requirements.txt`
 4. Doppio click su `run_pipeline.bat` o (nel cmd) `python run_all_pipeline.py`
