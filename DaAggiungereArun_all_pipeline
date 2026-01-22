@@ -1,0 +1,4 @@
+    "script00_sanity_reset.py",
+    "script01_detect_archives.py",
+    "script02_extract_archives.py",
+    "script03_preprocess_images.py",

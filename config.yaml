@@ -1,0 +1,35 @@
+# ----------------------------------------
+# Manga Translator Pipeline - Config
+# ----------------------------------------
+
+# Cartelle principali
+paths:
+  input_dir: "input/manga_to_be_translated"
+  workspace_dir: "workspace"
+  output_dir: "output"
+  fonts_dir: "fonts"
+
+# Font per typesetting
+font:
+  ttf: "mangati.ttf"
+  size: 30
+  padding: 5
+
+# OCR
+ocr:
+  languages: ["en"]   # giapponese e inglese	#"ja", --> Giapponese
+  engine: "easyocr"
+
+# Inpainting / clean text
+clean_text:
+  inpaint_radius: 3
+  method: "telea"  # opzioni: "telea" o "ns"
+
+# Translation
+translation:
+  model_name: "Helsinki-NLP/opus-mt-ja-it"  # MarianMT modello JP->IT
+  batch_size: 8
+
+# Logging
+logging:
+  verbose: true
