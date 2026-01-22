@@ -4,7 +4,7 @@ from pathlib import Path
 
 # ---- CONFIG ----
 WORKSPACE_DIR = Path("workspace")
-MAX_WIDTH = 750        # resize
+MAX_WIDTH = 2000        # px massimi
 DENOISE_STRENGTH = 10   # più alto = più aggressivo
 
 
