@@ -16,10 +16,11 @@ This pipeline uses Python and open-source modules to:
 
 Instructions:
 1. Enter raw_manga_translator: `cd raw_manga_translator`
-2. Run `python -m venv tf_env`
+2. Manually create the input folder and the manga_to_be_translated subfolder.
+3. Run `python -m venv tf_env`
       `tf_env\Scripts\activate`
-3. Install dependencies: `pip install -r requirements.txt`
-4. Double-click on `run_pipeline.bat` or (in cmd) `python run_all_pipeline.py`
+4. Install dependencies: `pip install -r requirements.txt`
+5. Double-click on `run_pipeline.bat` or (in cmd) `python run_all_pipeline.py`
 
 #######################################################################################
 
@@ -39,7 +40,8 @@ Questa pipeline usa Python e moduli open-source per:
 
 Istruzioni:
 1. Entra in raw_manga_translator: `cd raw_manga_translator`
-2. Esegui `python -m venv tf_env ;`
+2. Crea manualmente la cartella input e la sottocartella manga_to_be_translated
+3. Esegui `python -m venv tf_env ;`
 	  `tf_env\Scripts\activate`
-3. Installa le dipendenze: `pip install -r requirements.txt`
-4. Doppio click su `run_pipeline.bat` o (nel cmd) `python run_all_pipeline.py`
+4. Installa le dipendenze: `pip install -r requirements.txt`
+5. Doppio click su `run_pipeline.bat` o (nel cmd) `python run_all_pipeline.py`
