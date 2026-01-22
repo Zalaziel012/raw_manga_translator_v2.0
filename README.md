@@ -15,7 +15,7 @@ This pipeline uses Python and open-source modules to:
 - Generate final CBZ ready to read
 
 Instructions:
-1. Enter raw_manga_translator: `cd raw_manga_translator`
+1. Enter raw_manga_translator: `cd raw_manga_translator_v2.0`
 2. Manually create the `input` folder and the `manga_to_be_translated` subfolder.
 3. Run `python -m venv tf_env`
       `tf_env\Scripts\activate`
@@ -39,7 +39,7 @@ Questa pipeline usa Python e moduli open-source per:
 - Generare CBZ finale pronto da leggere
 
 Istruzioni:
-1. Entra in raw_manga_translator: `cd raw_manga_translator`
+1. Entra in raw_manga_translator: `cd raw_manga_translator_v2.0`
 2. Crea manualmente la cartella `input` e la sottocartella `manga_to_be_translated`
 3. Esegui `python -m venv tf_env ;`
 	  `tf_env\Scripts\activate`
